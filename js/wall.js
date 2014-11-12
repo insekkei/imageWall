@@ -45,7 +45,7 @@ $(document).ready(function(){
 		  $this.width('800'+'px');
 		  $this.find('.shuffle-me').width('800px');
 		  $this.find('.images').height( imgHeight).width('800'+'px');
-		  $this.find('.images').children('img').height(imgHeight).css('clip','rect(0 800px '+imgHeight+' 0) ');
+		  $this.find('.images').children('img').height(imgHeight).width(800).css('clip','rect(0 800px '+imgHeight+' 0) ');
 		  break;
 		case 2:
 		  var imgHeight = (height/2-2.5)+'px';
@@ -64,5 +64,9 @@ $(document).ready(function(){
 		}
 		length += $this.width()+15;
 	});
-	$('body').width(length+'px');
+	$('body').width(length+'px').mousewheel(function(e, delta) {
+		this.scrollLeft -= (delta * 40);
+		e.preventDefault();
+	});	
+;
 });
