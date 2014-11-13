@@ -14,7 +14,7 @@ $(document).ready(function(){
 	$('.container').height(height);
 	$('.shuffle-me').css('margin-top',(height-272)/2+'px');
 	//设置墙的长度
-	var length = $('.shuffle-me').length*510;
+	var length = $('.shuffle-me').length*450;
 	$('body,.container').width(length+'px').mousewheel(function(e, delta) {
 		this.scrollLeft -= (delta * 40);
 		e.preventDefault();

@@ -149,10 +149,19 @@ clip:rect(0 450px 450px 0);
 	position:fixed;
 	bottom:0;
 	height:120px;
+	color:#fff;
 	line-height:120px;
-	width:100%;
-	text-align:center;
-	background: #fff url(http://insekkei.com/mtlcon/images/bgr.jpg) repeat;
+	width:78%;
+	padding:0 11%;
+	background: #000 url(../images/pic/bg.png) no-repeat top center;
+	background-position:55%;
+	background-size:auto 100%;
+}
+.footer .links{
+	margin:0 24%;
+}
+.links a{
+	color:#fff;
 }
 /***************滚动条样式******************/
 ::-webkit-scrollbar {
@@ -170,7 +179,7 @@ background:#999;
 ::-webkit-scrollbar-thumb {
 -webkit-border-radius: 10px;
 border-radius: 10px;
-background: #000;
+background: #333;
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
@@ -187,4 +196,3 @@ background: #eee;
 	height:0;
 	clear:both;
 }
-
