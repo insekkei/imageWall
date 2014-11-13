@@ -73,8 +73,6 @@ width: auto;
 .container {
 margin: 143px 0 0 0;
 padding:20px;
-background: #fff url(../images/pic/bgr.jpg) no-repeat bottom left fixed;
-background-size:auto 80%;
 }
 
 .header {
@@ -152,24 +150,14 @@ clip:rect(0 450px 450px 0);
 	position:fixed;
 	bottom:0;
 	height:120px;
-	color:#fff;
 	line-height:120px;
 	width:78%;
 	padding:0 11%;
-	background: #000;
-	z-index:10000;
-}
-.footer img{
-	position:absolute;
-	top:-280px;
-	left:0;
 }
 .footer .links{
 	float:right;
 }
-.links a{
-	color:#fff;
-}
+
 /***************滚动条样式******************/
 ::-webkit-scrollbar {
 width:8px;
