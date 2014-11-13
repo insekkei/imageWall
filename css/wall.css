@@ -157,14 +157,15 @@ clip:rect(0 450px 450px 0);
 	width:78%;
 	padding:0 11%;
 	background: #000;
+	z-index:10000;
 }
 .footer img{
 	position:absolute;
-	top:-276px;
+	top:-280px;
 	left:0;
 }
 .footer .links{
-	margin:0 24%;
+	float:right;
 }
 .links a{
 	color:#fff;
@@ -202,5 +203,7 @@ background: #eee;
 	height:0;
 	clear:both;
 }
+
+
 
 
