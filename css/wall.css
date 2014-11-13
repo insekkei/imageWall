@@ -49,6 +49,7 @@ text-decoration: none;
 .main {
 width: auto;
 margin: 0 auto;
+
 }
 
 .header h1 {
@@ -70,8 +71,10 @@ width: auto;
 }
 
 .container {
-margin: 74px 0 40px 0;
+margin: 143px 0 0 0;
 padding:20px;
+background: #fff url(../images/pic/bgr.jpg) no-repeat bottom left fixed;
+background-size:auto 80%;
 }
 
 .header {
@@ -153,9 +156,12 @@ clip:rect(0 450px 450px 0);
 	line-height:120px;
 	width:78%;
 	padding:0 11%;
-	background: #000 url(../images/pic/bg.png) no-repeat top center;
-	background-position:55%;
-	background-size:auto 100%;
+	background: #000;
+}
+.footer img{
+	position:absolute;
+	top:-276px;
+	left:0;
 }
 .footer .links{
 	margin:0 24%;
@@ -196,3 +202,5 @@ background: #eee;
 	height:0;
 	clear:both;
 }
+
+
